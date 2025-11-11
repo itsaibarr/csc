@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { htmlTags, tagCategories, getTagsByCategory } from '../data/tags';
+import { tagCategories, getTagsByCategory } from '../../data/tags.ts';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState('Все');
